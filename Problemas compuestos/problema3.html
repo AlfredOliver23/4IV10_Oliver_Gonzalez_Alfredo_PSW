@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title>Cálculo de horas extras</title>
+</head>
+<body>
+	<h1>Cálculo de horas extras</h1>
+	<form id="overtimeForm">
+		<label for="hoursWorked">Horas trabajadas:</label>
+		<input type="number" id="hoursWorked" name="hoursWorked" min="0" step="1" required>
+		<br>
+		<label for="hourlyWage">Salario por hora:</label>
+		<input type="number" id="hourlyWage" name="hourlyWage" min="0" step="0.01" required>
+		<br>
+		<input type="submit" value="Calcular">
+	</form>
+	<div id="result"></div>
+
+	<script src="funcionalidad3.js"></script>
+</body>
+</html>
