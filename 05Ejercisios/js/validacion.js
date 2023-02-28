@@ -9,4 +9,7 @@ form.addEventListener('submit', function(event) {
 
 	const resultDiv = document.getElementById('result');
 	resultDiv.innerHTML = `Interés ganado: ${interest.toFixed(2)} <br> Monto total después de un mes: ${total.toFixed(2)}`;
+
+	
 });
+
